@@ -1,0 +1,6 @@
+TODO
+.venv/
+.ipynb_checkpoints/
+.vscode/
+.devcontainer/
+.github/

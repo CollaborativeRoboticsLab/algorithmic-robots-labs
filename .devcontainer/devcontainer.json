@@ -1,0 +1,18 @@
+{
+    "name": "Algorithmic Robots Jupyter",
+    "dockerFile": "../Dockerfile",
+    "remoteUser": "jovyan",
+    "context": "..",
+    "containerEnv": {
+        "DISPLAY": "${localEnv:DISPLAY}"
+    },
+    "runArgs": [
+        "--privileged",
+        "--network=host"
+    ],
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/jovyan/work/${localWorkspaceFolderBasename},type=bind",
+    "workspaceFolder": "/home/jovyan/work/${localWorkspaceFolderBasename}",
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/jovyan/.bash_history,type=bind"
+    ]
+}
