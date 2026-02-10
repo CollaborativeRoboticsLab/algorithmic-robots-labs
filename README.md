@@ -21,7 +21,7 @@ Update the requirements.txt with any python packages required
 
 ### Docker
 
-A Dockerfile is provided to run the notebooks in a container. To build the container, run the following command in a terminal at the top level of this git repository.
+A Dockerfile is provided to run the notebooks in a container. To build the container locally, run the following command in a terminal at the top level of this git repository.
 
 ```bash
 # build the docker container
@@ -31,7 +31,7 @@ docker build -t arlab .
 docker run -p 8888:8888 arlab start-notebook.sh --NotebookApp.token='' --ip=0.0.0.0 --port=8888
 ```
 
-or use the docker compose file
+or use the docker compose file to pull the latest container from ghcr.io
 
 ```bash
 docker compose pull
