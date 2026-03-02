@@ -9,10 +9,6 @@ The notebooks are designed to be stanalone and to study mathematical concepts of
 
 ## Sessions
 
-- [**Session 1 - Mapping**](<./1-Mapping/readme.md>) - describe whats in here
-- [**Session 2 - Mapping**](<./2-Localization/readme.md>) - describe whats in here
-- [**Session 3 - Mapping**](<./3-Exploration/readme.md>) - describe whats in here
-
 ## Installation
 
 ## Dependencies
